@@ -1,0 +1,37 @@
+.Spells{
+    width: 100%;
+    height: 100%;
+    background-color: #c0c0c0;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Spells .spell-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.Spells .spell-container .spell-box{
+    width: 300px;
+    height: 100px;
+    background-color: #D3A625;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.Spells .spell-container .spell-box h1{
+    font-size: 24px;
+    font-weight: 900;
+}
